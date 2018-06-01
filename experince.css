@@ -1,0 +1,393 @@
+.nav-pills
+{
+  font-family: 'Amatic SC', cursive;
+  font-size: 3.5em;
+  margin-bottom: 10%;
+
+}
+
+.pageOne
+{
+  background-size: cover;
+  height: 900px;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+
+
+
+.noir {
+	display: block;
+	background-color: black;
+	padding: 18px;
+	border: 3px solid white;
+}
+
+.vertical-list li {
+	float: left;
+}
+
+.blue-border {
+	border: 2px solid #114190;
+}
+
+.magenta-border {
+	border: 2px solid #e11a61;
+}
+
+.purple-border {
+	border: 2px solid #9d1098;
+}
+
+.red-border {
+	border: 2px solid #9d102b;
+}
+
+#portfolio {
+  background: url("codeBG.jpg") no-repeat center center; 
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  
+}
+
+#portfolio ul {
+  list-style-type: none;
+}
+
+#portfolio h2 {
+    font-family: 'Amatic SC', cursive;
+	color: #337ab7;
+    font-size: 3.5em;
+	margin-bottom: 140px;
+    font-weight: bold;
+}
+
+#portfolio h2:after {
+	border-bottom: 2px dashed #b4b4b4;
+}
+
+#portfolio .row {
+	margin: 0px;
+	box-sizing: border-box;
+	padding: 0 60px;
+}
+
+#portfolio .heading {
+    font-family: 'Amatic SC', cursive;
+	color: #F0F0F0;
+	padding: 15px;
+	text-align: center;
+	position: absolute;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+#portfolio .heading span {
+    color: #635757;
+	display: block;
+	margin: 40px 0px;
+	font-size: 200%;
+}
+
+#portfolio .description {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding: 15px;
+}
+
+#portfolio .description > * {
+	display: none;
+	font-size: 150%;
+}
+
+#portfolio p {
+	color: #F0F0F0;
+    font-family: 'Lobster', cursive;
+    
+	/*display: none;*/
+	margin-bottom: 30px;
+	line-height: 230%;
+}
+
+#portfolio p, .tools {
+	width: 100%;
+}
+
+.description span {
+	margin-left: 10px;
+}
+
+.description .tools {
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.description .tools li {
+	margin-top: 5px;
+	background-color: #114190;
+	margin-right: 10px;
+	padding: 10px;
+	color: #F0F0F0;
+}
+
+#portfolio div section {
+	cursor: pointer;
+}
+
+#portfolio div:nth-child(odd) section {
+/*	background-color: #483F3F;*/
+    background-color: #D7E5F0;
+    opacity: .2;
+	padding: 10px;
+	border: 3px solid #ffffff;
+}
+
+#portfolio div:nth-child(even) section {
+/*	background-color: #3D3636;*/
+    background-color: #D7E5F0;
+	padding: 10px;
+	border: 3px solid #ffffff;
+}
+
+#portfolio img {
+	width: 100%;
+}
+
+#portfolio section {
+	height: 100%;
+	margin-bottom: 20px;
+}
+
+#portfolio .overlay {
+	position: relative;
+	padding-bottom: 0px;
+	min-height: 550px;
+  overflow: auto;
+}
+
+#portfolio .description h4 {
+	color: white;
+}
+
+#portfolio .heading {
+	position: relative;
+	margin: 0 auto;
+}
+
+#portfolio section {
+	width: 50%;
+	float: left;
+}
+
+#portfolio .overlay:hover{
+	background-color: #000000;
+}
+
+#portfolio section:hover .overlay img {
+	opacity: 0;
+	transition: opacity .32s;
+}
+
+#portfolio section:hover .description {
+	top: 140px;
+	transition: top .5s;
+}
+
+#portfolio section:hover .overlay .heading span {
+	 -webkit-transform: rotate(180deg);
+	 position: relative;
+	 top: -80px;
+	 left: -30px;
+	 color: rgba(4,14,22,.83);
+}
+
+
+#portfolio section:hover .overlay .description > * {
+	display: block;
+}
+
+#portfolio section:hover .overlay .heading {
+	position: absolute;
+	top: -60px;
+	transition: top .9s;
+}
+
+
+
+
+
+
+/*NEW SECTION */
+#projects {
+  background: url("internshipBack.jpg") no-repeat center center; 
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+}
+
+#projects ul {
+  list-style-type: none;
+}
+
+#projects h2 {
+    font-family: 'Amatic SC', cursive;
+	color: #337ab7;
+    font-size: 3.5em;
+	margin-bottom: 140px;
+}
+
+#projects h2:after {
+	border-bottom: 2px dashed #b4b4b4;
+}
+
+#projects .row {
+	margin: 0px;
+	box-sizing: border-box;
+	padding: 0 60px;
+}
+
+#projects .heading {
+    font-family: 'Amatic SC', cursive;
+	color: #F0F0F0;
+	padding: 15px;
+	text-align: center;
+	position: absolute;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+#projects .heading span {
+    color: #635757;
+	display: block;
+	margin: 40px 0px;
+	font-size: 200%;
+}
+
+#projects .description {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding: 15px;
+}
+
+#projects .description > * {
+	display: none;
+	font-size: 150%;
+}
+
+#projects p {
+	color: #F0F0F0;
+    font-family: 'Lobster', cursive;
+    
+	/*display: none;*/
+	margin-bottom: 30px;
+	line-height: 230%;
+}
+
+#projects p, .tools {
+	width: 100%;
+}
+
+.description span {
+	margin-left: 10px;
+}
+
+.description .tools {
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.description .tools li {
+	margin-top: 5px;
+	background-color: #114190;
+	margin-right: 10px;
+	padding: 10px;
+	color: #F0F0F0;
+}
+
+#projects div section {
+	cursor: pointer;
+}
+
+#projects div:nth-child(odd) section {
+/*	background-color: #483F3F;*/
+    background-color: #D7E5F0;
+    opacity: .2;
+	padding: 10px;
+	border: 3px solid #ffffff;
+}
+
+#projects div:nth-child(even) section {
+/*	background-color: #3D3636;*/
+    background-color: #D7E5F0;
+	padding: 10px;
+	border: 3px solid #ffffff;
+}
+
+#projects img {
+	width: 100%;
+}
+
+#projects section {
+	height: 100%;
+	margin-bottom: 20px;
+}
+
+#projects .overlay {
+	position: relative;
+	padding-bottom: 0px;
+	min-height: 550px;
+  overflow: auto;
+}
+
+#projects .description h4 {
+	color: white;
+}
+
+#projects .heading {
+	position: relative;
+	margin: 0 auto;
+}
+
+#projects section {
+	width: 50%;
+	float: left;
+}
+
+#projects .overlay:hover{
+	background-color: #000000;
+}
+
+#projects section:hover .overlay img {
+	opacity: 0;
+	transition: opacity .32s;
+}
+
+#projects section:hover .description {
+	top: 140px;
+	transition: top .5s;
+}
+
+#projects section:hover .overlay .heading span {
+	 -webkit-transform: rotate(180deg);
+	 position: relative;
+	 top: -80px;
+	 left: -30px;
+	 color: rgba(4,14,22,.83);
+}
+
+
+#projects section:hover .overlay .description > * {
+	display: block;
+}
+
+#projects section:hover .overlay .heading {
+	position: absolute;
+	top: -60px;
+	transition: top .9s;
+}
+
