@@ -1,3 +1,31 @@
+.nav-pills
+{
+  font-family: 'Amatic SC', cursive;
+  font-size: 3.5em;
+  margin-bottom: 10%;
+
+}
+
+/*
+img {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+*/
+
+.myheader
+{
+  padding: 0;
+  margin-top: 0px;
+  margin-left: 400px; 
+  font-size: 5.5em;
+  font-weight: bold;
+  font-family: 'Amatic SC', cursive;
+}
+
 .contact {
 	margin: 0;
 	height: 100%;
@@ -11,6 +39,7 @@
 	margin: 250px auto 0;
 	position: relative;
 	background: #435d77;
+    
 	border-radius:0 0 40px 40px; 
 }
 #button_open_envelope{
